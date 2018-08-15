@@ -1,0 +1,16 @@
+Java8.0 引入了全新的日期与实践API java.time用于升级java.util.Date 
+
+Java8.0的 java.util.Optional 可以明确指示开发者哪些对象需要非空检查
+@Autowired
+private optional<UserDao> userDao;
+
+sprin4.0去除了对于iBatis的直接支持
+
+通过Maven获取Spring 配置 pom.xml:
+<dependencies>
+  <dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>4.2.2.RELEASE</version>
+   </dependency>
+  </dependencies> 
